@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
     name='ImageEngine',
-    version='0.2.3',
+    version='0.2.4',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
@@ -20,7 +20,10 @@ setup(
         "duckduckgo_search",
         "icrawler",
         "requests",
-        "Pillow",
+        "Pillow", 
+        "torch==2.3.0",
+        "torchvision==0.18.0",
+        "torchaudio==2.3.0", 
     ],
     long_description=description,
     long_description_content_type="text/markdown"
