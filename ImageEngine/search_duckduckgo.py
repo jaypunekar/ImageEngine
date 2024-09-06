@@ -33,8 +33,8 @@ def searchDDG(term, path, max_images=30):
 def search_ddg_entry():
     import argparse
     parser = argparse.ArgumentParser(description='Search for images on DuckDuckGo.')
-    parser.add_argument('term', type=str, help='Search term')
-    parser.add_argument('path', type=str, help='Directory to save images')
+    parser.add_argument('--term', type=str, help='Search term')
+    parser.add_argument('--path', type=str, help='Directory to save images')
     parser.add_argument('--max_images', type=int, default=30, help='Maximum number of images to download')
     args = parser.parse_args()
     searchDDG(term=args.term, path=args.path, max_images=args.max_images)

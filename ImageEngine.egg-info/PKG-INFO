@@ -1,6 +1,10 @@
 Metadata-Version: 2.1
 Name: ImageEngine
-Version: 0.2.4
+Version: 0.2.5
+Summary: A package to download images from various search engines.
+Author: Jay Punekar
+Author-email: jay.punekar@icloud.com
+License: MIT
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: fastai
@@ -49,19 +53,19 @@ After installing the package, you can use the following commands from your termi
 
    ```bash
    # "cute puppies" is the search string and "puppy_images" is the directory where images will be stored
-   search-ddg --term="cute puppies" "puppy_images" --max_images=10
+   search-ddg term="cute puppies" path="puppy_images" --max_images=10
    ```
 
 2. **Search and download images from Bing**:
 
    ```bash
-   search-bing --term="beautiful landscapes" "landscapes" --max_images=20
+   search-bing term="beautiful landscapes" path="landscapes" --max_images=20
    ```
 
 3. **Search and download images from Google, DuckDuckGo, and Bing**:
 
    ```bash
-   search-web --term="happy animals" "animals" --max_images=30
+   search-web term="happy animals" path="animals" --max_images=30
    ```
 
 ### Using Functions in Python Scripts

@@ -5,7 +5,11 @@ with open("README.md", "r") as f:
 
 setup(
     name='ImageEngine',
-    version='0.2.4',
+    version='0.2.5',
+    description="A package to download images from various search engines.",
+    author="Jay Punekar",
+    author_email="jay.punekar@icloud.com",
+    license="MIT",
     packages=find_packages(),
     entry_points={
         'console_scripts': [
