@@ -1,6 +1,6 @@
 # ImageEngine
 
-ImageEngine is a Python package that allows users to search and download images from multiple sources such as DuckDuckGo, Bing, and Google. With a simple interface and command-line tools, you can easily obtain images related to any search term.
+ImageEngine is a Python package that allows users to search and download images from multiple sources such as DuckDuckGo, Bing, and Google. With a simple interface and command-line tools, you can easily obtain images of any search term.
 
 ## Features
 
@@ -10,7 +10,7 @@ ImageEngine is a Python package that allows users to search and download images 
 
 ## Installation
 
-To install the package, simply run:
+To install the package, run:
 
 
 ```bash
@@ -93,3 +93,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ## Contact
 
 For any inquiries or issues, please contact [jay.punekar@icloud.com](mailto:jay.punekar@icloud.com).
+
